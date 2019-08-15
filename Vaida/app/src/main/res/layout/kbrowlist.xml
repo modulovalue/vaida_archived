@@ -1,0 +1,43 @@
+
+<RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:minHeight="48dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Vaida"
+                android:id="@+id/infoEditable"
+                android:paddingLeft="16dp"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:paddingTop="6dp" />
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:textColor="#333333"
+                android:paddingLeft="16dp"
+                android:textStyle="bold"
+                android:id="@+id/kbrowtitle"
+                android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                android:gravity="center_vertical"
+                android:minHeight="?android:attr/listPreferredItemHeightSmall"
+                android:text="ertetettetettetetetetet" />
+
+        </LinearLayout>
+
+</RelativeLayout>

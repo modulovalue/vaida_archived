@@ -1,0 +1,11 @@
+{
+    "description": "New Chord Progression",
+    "writable": "0",
+    "chords": [
+        { "notes": []},
+        { "notes": []},
+        { "notes": []},
+        { "notes": []}
+    ]
+
+}

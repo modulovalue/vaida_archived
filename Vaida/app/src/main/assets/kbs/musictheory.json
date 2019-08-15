@@ -1,0 +1,65 @@
+{
+    "info": {
+        "infode": "Music Theory Knowledge Base",
+        "constants": {
+            "item": [
+                "A",
+                "As",
+                "B",
+                "C",
+                "Cs",
+                "D",
+                "Ds",
+                "E",
+                "F",
+                "Fs",
+                "G",
+                "Gs"
+            ]
+        },
+        "predicates": {
+            "item": [
+                "Step",
+                "Step2",
+                "Step3",
+                "Step4",
+                "Step5",
+                "Step6",
+                "Step7",
+                "MinorChord",
+                "MajorChord",
+                "MinorChord7th",
+                "MajorChord7th"
+            ]
+        },
+        "functions": {
+            "item": []
+        },
+        "facts": {
+            "item": [
+                "Step(A, As) ",
+                "Step(As, B) ",
+                "Step(B, C)  ",
+                "Step(C, Cs) ",
+                "Step(Cs, D) ",
+                "Step(D, Ds) ",
+                "Step(Ds, E) ",
+                "Step(E, F)  ",
+                "Step(F, Fs) ",
+                "Step(Fs, G) ",
+                "Step(G, Gs) ",
+                "Step(Gs, A) ",
+                "( Step(x, y) AND Step(y, z)                   => Step2(x, z) ) ",
+                "( Step2(x, y) AND Step(y, z)                  => Step3(x, z) ) ",
+                "( Step2(x, y) AND Step2(y, z)                 => Step4(x, z) ) ",
+                "( Step3(x, y) AND Step2(y, z)                 => Step5(x, z) ) ",
+                "( Step3(x, y) AND Step3(y, z)                 => Step6(x, z) ) ",
+                "( Step4(x, y) AND Step3(y, z)                 => Step7(x, z) ) ",
+                "( Step3(x, y) AND Step4(y, z)                 => MinorChord(x, y, z)        ) ",
+                "( Step3(x, y) AND Step4(y, z) AND Step3(z, a) => MinorChord7th(x, y, z, a)  ) ",
+                "( Step4(x, y) AND Step3(y, z)                 => MajorChord(x, y, z)        ) ",
+                "( Step4(x, y) AND Step3(y, z) AND Step4(z, a) => MajorChord7th(x, y, z, a)  ) "
+            ]
+        }
+    }
+}

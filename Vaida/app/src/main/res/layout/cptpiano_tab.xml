@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:piano="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:id="@+id/main_content"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:weightSum="1"
+        android:layout_marginBottom="35dp"
+        >
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:text="-7"
+            android:layout_weight="0.125"
+            android:id="@+id/buttonm7"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:text="-5"
+            android:layout_weight="0.125"
+            android:id="@+id/buttonm5" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:text="-3"
+            android:layout_weight="0.125"
+            android:id="@+id/buttonm3" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:text="-1"
+            android:layout_weight="0.125"
+            android:id="@+id/buttonm1" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_weight="0.125"
+            android:id="@+id/buttonp1" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:layout_weight="0.125"
+            android:id="@+id/buttonp3" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:layout_weight="0.125"
+            android:id="@+id/buttonp5" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:layout_weight="0.125"
+            android:id="@+id/buttonp7" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginBottom="35dp"
+        android:id="@+id/pianoview1">
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginBottom="35dp"
+        android:id="@+id/pianoview2">
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginBottom="35dp"
+        android:id="@+id/pianoview3">
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginBottom="35dp"
+        android:id="@+id/pianoview4">
+
+    </LinearLayout>
+
+</LinearLayout>
